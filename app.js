@@ -7,19 +7,19 @@ $(document).ready(function () {
     function gk() {
         var scoreAry = [];
         var questions = [{
-            q: "What is the name of the Paranoid Android in Douglas Adams’ ‘Hitchhiker’s Guide to the Galaxy’?",
-            s: ["Andy", "Bob", "Susan", "Marvin"],
-            a: "Marvin",
+            q: "Grand Central Terminal, Park Avenue, New York is the world's?",
+            s: ["largest railway station", "highest railway station", "longest railway station", "None of the above"],
+            a: "largest railway station",
             correct: 0
         }, {
-            q: "In Monopoly, the green set consists of Pacific Avenue, North Carolina Avenue and which other?",
-            s: ["Oxford Street", "Pennsylvania Avenue", "Park Place", "New York Avenue"],
-            a: "Pennsylvania Avenue",
+            q: "Entomology is the science that studies?",
+            s: ["Behavior of human beings", "Insects", "The origin and history of technical and scientific terms", "The formation of rocks"],
+            a: "Insects",
             correct: 0
         }, {
-            q: "Who created Snoopy?",
-            s: ["George Herriman", "Charles M. Schulz", "Jim Davis", " Garry Trudeau"],
-            a: "Charles M. Schulz",
+            q: "For which of the following disciplines is Nobel Prize awarded?",
+            s: ["Physics and Chemistry", "Physiology or Medicine", "Literature, Peace and Economics", "All of the above"],
+            a: "All of the above",
             correct: 0
         }, {
             q: "What was the name of the tallest Warner brother in Animaniacs?",
@@ -52,9 +52,9 @@ $(document).ready(function () {
             a: "Nepal",
             correct: 0
         }, {
-            q: "What is the abbreviation for Potassium in the Periodic Table of Elements?",
-            s: ["Po", "Pa", "K", "Ps"],
-            a: "K",
+            q: "Epsom (England) is the place associated with?",
+            s: ["Horse racing", "Polo", "Shooting", "Snooker"],
+            a: "Horse racing",
             correct: 0
         }];
 
